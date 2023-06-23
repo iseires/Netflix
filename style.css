@@ -1,0 +1,141 @@
+.top {
+    background: url("./Untitled.jpeg") ;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+}
+
+html, body {
+    margin: 0;
+}
+
+#search {
+    height: 60px; 
+    width: 400px;
+    font-size: 20px;
+}
+
+.start {
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    margin: auto;
+}
+
+.english, .spanish {
+    cursor: pointer;
+}
+
+.logo {
+    height: 120px;
+    aspect-ratio: 16 / 9;
+    filter: brightness(1);
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+
+
+.hidden {
+    display: none;
+    width: min-content;
+    height: min-content;
+    padding: 3%;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 100px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Helvetica;
+}
+
+
+
+.btn {
+    width: 80px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.more {
+    width: 80px;
+    height: 35px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+nav {
+    width: 100vw;
+    height: 100px;
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.big {
+    font-size: 30px;
+}
+
+.small {
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+    margin-right: 4%;
+}
+
+.main {
+    color: white;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+
+
+.show {
+    display: block
+}
